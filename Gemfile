@@ -21,8 +21,11 @@ group :assets do
 end
 
 group :test do
-  gem 'rspec'
-  gem 'spork'
+  gem 'spork-rails'
+end
+
+group :development, :test do
+  gem 'rspec-rails'
 end
 
 gem 'jquery-rails'
